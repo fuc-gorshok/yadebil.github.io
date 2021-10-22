@@ -34,3 +34,24 @@ p,li{
     letter-spacing: 1px;
     margin: 2px;
 }
+footer{
+    padding: 30px 0 0;
+}
+a.vk-link{
+    display: block;
+    text-align: center;
+    margin: -25px 0;
+}
+a.nextpagelink{
+    display: block;
+    text-align: right;
+    margin: 0 auto;
+    font-size: 20px;
+    color: black;
+}
+button{
+    font-size: 15px;
+    display: block;
+    margin: -20px 0;
+    text-align: left;
+}

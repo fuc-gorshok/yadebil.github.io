@@ -5,15 +5,16 @@ function setUserName() {
     var myName = prompt('Please enter your name.');
     localStorage.setItem('name', myName);
     myHeading.textContent = 'This is ' + myName + '`s YOBA';
-}
-myButton.onclick = setUserName();
-if(!localStorage.getItem('name')) {
+};
+
+if( !localStorage.getItem('name') ) {
     setUserName();
 } else {
     var storedName = localStorage.getItem('name');
     myHeading.textContent = 'This is ' + storedName + '`s YOBA';
-}
+};
 
+myButton.onclick = setUserName;
 var myImage = document.querySelector('img');
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
